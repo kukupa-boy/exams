@@ -1,0 +1,284 @@
+{
+	"pages": [
+		{ 
+			"path": "pages/index/index",
+			"style": {
+				// #ifdef MP 
+				"navigationBarTitleText": "MEYDAN|看考场"
+				// #endif 
+			}
+		},
+		{
+			"path": "pages/set/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		},
+		{
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"animationType": "slide-in-bottom"
+				}
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "我的订单",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+		}, {
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "选择城市"
+			}
+		}
+        ,{
+            "path" : "pages/category/category",
+            "style" : {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/video/video",
+            "style" : {
+				"navigationBarTitleText": "产品详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+        }
+		,{
+		    "path" : "pages/video/course",
+		    "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "产品详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}
+		,{
+		    "path" : "pages/video/list",
+		    "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "考场实景"
+			}
+		}
+        ,{
+            "path" : "pages/collection/collection",
+            "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "我的收藏"
+			}
+        },
+		{
+            "path" : "pages/feedback/feedback",
+            "style" : {
+				"navigationBarTitleText": "意见反馈"
+			}
+        }
+        ,{
+            "path" : "pages/article/article",
+            "style" : {
+				"navigationBarTitleText": "详情"
+			}
+        }
+        ,{
+            "path" : "pages/promotion/promotion",
+			// "component": "promotion",
+            "style" : {
+				"navigationBarTitleText": "推广中心"
+			}
+        }
+        ,{
+            "path" : "pages/promotion/promoter",
+            "style" : {
+				"navigationBarTitleText": "申请推广员"
+			}
+        }
+		,{
+            "path" : "pages/promotion/customers",
+            "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "客户列表"
+			}
+        }
+        ,{
+            "path" : "pages/promotion/orders",
+            "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "客户订单"
+			}
+        }
+		,{
+		    "path" : "pages/promotion/paihangbang",
+		    "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "排行榜"
+			}
+		}
+		,{
+		    "path" : "pages/recruit/recruit",
+		    "style" : {
+				"navigationBarTitleText": "合作加盟"
+			}
+		}
+        ,{
+            "path" : "pages/poster/poster",
+            "style" : {
+				"navigationBarTitleText": "分享海报"
+			}
+        },{
+            "path" : "pages/poster/bargain",
+            "style" : {
+				"navigationBarTitleText": "砍价海报"
+			}
+        }
+		,{
+		    "path" : "pages/poster/article",
+		    "style" : {
+				"navigationBarTitleText": "分享海报"
+			}
+		}
+		,{
+		    "path" : "pages/promotion/code",
+		    "style" : {
+				"navigationBarTitleText": "推广码"
+			}
+		}
+		,{
+		    "path" : "pages/promotion/balance",
+		    "style" : {
+				"navigationBarTitleText": "账户"
+			}
+		}
+		,{
+		    "path" : "pages/promotion/capitals",
+		    "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "账户变动记录"
+			}
+		}
+		,{
+		    "path" : "pages/promotion/tutorial",
+		    "style" : {
+				"navigationBarTitleText": "使用教程"
+			}
+		}
+        ,{
+            "path" : "pages/website/website",
+            "style" : {
+				"navigationBarTitleText": ""
+			}
+        }
+        ,{
+            "path" : "pages/video/proxy",
+            "style" : {
+				"navigationBarTitleText": "帮朋友付款"
+			}
+        },
+		{
+			"path": "pages/bargain/bargain",
+			"style": {
+				"navigationBarTitleText": "砍价活动"
+			}
+		}
+		,{
+		    "path" : "pages/video_area/video_area",
+		    "style" : {
+				"navigationBarTitleText": ""
+			}
+		},
+        {
+            "path" : "pages/promotion/coacher",
+            "style" : {
+        		"navigationBarTitleText": "成为教练代理"
+        	}
+        }
+        ,{
+            "path" : "pages/video/combo",
+            "style" : {
+				"navigationBarTitleText": "套餐活动"
+			}
+        },
+		{
+            "path" : "pages/live/live",
+            "style" : {
+				"navigationBarTitleText": "申请直播"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#f8f8f8"
+	}
+	// "tabBar": {
+	// 	"color": "#C0C4CC",
+	// 	"selectedColor": "#fa436a",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [{
+	// 			"pagePath": "pages/index/index",
+	// 			"iconPath": "static/tab-home.png",
+	// 			"selectedIconPath": "static/tab-home-current.png",
+	// 			"text": "考场"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/category/category",
+	// 			"iconPath": "static/tab-cate.png",
+	// 			"selectedIconPath": "static/tab-cate-current.png",
+	// 			"text": "分类"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/cart/cart",
+	// 			"iconPath": "static/tab-cart.png",
+	// 			"selectedIconPath": "static/tab-cart-current.png",
+	// 			"text": "购物车"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/user/user",
+	// 			"iconPath": "static/tab-my.png",
+	// 			"selectedIconPath": "static/tab-my-current.png",
+	// 			"text": "我的"
+	// 		}
+	// 	]
+	// },
+	// "condition" : { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [
+	// 		{
+	// 			"name": "", //模式名称
+	// 			"path": "", //启动页面，必选
+	// 			"query": "" //启动参数，在页面的onLoad函数里面得到
+	// 		}
+	// 	]
+	// }
+}
